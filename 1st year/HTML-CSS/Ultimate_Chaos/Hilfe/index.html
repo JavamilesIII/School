@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../index.css">
+    </head>
+    <body>
+        <div id="page">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Startseite</a></li>
+                        <li><a href="../Serverdaten/index.html">Serverdaten</a>
+                            <ul>
+                                <li><a href="Spieler/index.html">Spieler</a></li>
+                                <li><a href="Bauten/index.html">Bauten</a></li>
+                                <li><a href="Modliste/index.html">Modliste</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../Siegerpodeste/index.html">Siegerpodeste</a></li>
+                        <li><a href="../Über uns/index.html">Über uns</a></li>
+                        <li><a href="index.html">Hilfe/Meldungen</a></li>
+                    </ul>
+                </nav><br>
+            </header>
+            <div id="content" style="margin-left: 450px;">
+                <h1 style="text-align: center;">Hier melden oder um Hilfe bitten</h1>
+                <form action="formular.php" method="post">
+                    <fieldset>
+                        <legend>Benutzerdaten:</legend>
+                        <label>Benutzername: </label><br>
+                        <input type="text"><br>
+                        <label>Vorname:</label><br>
+                        <input type="text" required><br>
+                        <label>Nachname:</label><br>
+                        <input type="text" required><br>
+                        <label>Email:</label><br>
+                        <input type="email" required><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Meldung:</legend>
+                        <textarea name="meldung" id="" cols="20" rows="5" required></textarea><br>
+                        <input type="submit" value="Senden">
+                        <input type="reset" value="Reset">
+                    </fieldset>
+                </form>
+            </div>
+            <footer>
+                <a href="https://discord.gg/qsPmMneA"><img class="bild" src="../anderes/discord-icon.png" alt="Discord"></a>
+                <a href="../anderes/Ultimate_Chaos_2.0.zip" download><img class="bild" src="../anderes/curseforge-icon.png" alt="Modpack"></a>
+            </footer>
+        </div>
+    </body>
+</html>

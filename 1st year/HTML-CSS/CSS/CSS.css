@@ -1,0 +1,31 @@
+#wrapper {
+    width: 760px;
+    border-color: black;
+    border-style: solid;
+}
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p, table, ol, ul, dl {
+    font-size: 10px;
+}
+h1 {
+    background-color: gray;
+    color: white;
+}
+h2, h3 {
+    color: blue;
+}
+strong     {
+    color: red;
+}
+a:hover {
+    color: red;
+    font-style:normal;
+}
+a:active {
+    color: black;
+}
+a:visited {
+    color: gray;
+}

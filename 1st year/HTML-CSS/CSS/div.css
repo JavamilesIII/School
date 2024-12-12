@@ -1,0 +1,15 @@
+#startseite {
+    background-color: lightgreen;
+    border: 2px black solid;
+}
+#wrapper {
+    background-color: yellow;
+    border: 1px black solid;
+    margin: 10px;
+}
+#kopfbereich, #navibereich, #textbereich, #fussbereich {
+    background-color: lightblue;
+    border: 1px black solid;
+    height: 70px;
+    margin: 10px;
+}
