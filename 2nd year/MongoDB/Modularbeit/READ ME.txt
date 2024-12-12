@@ -1,0 +1,4 @@
+Zusätzliche Libraries:
+
+- PyMongo
+- Rich
